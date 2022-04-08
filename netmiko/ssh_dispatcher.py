@@ -91,6 +91,7 @@ from netmiko.raisecom import RaisecomRoapSSH
 from netmiko.raisecom import RaisecomRoapTelnet
 from netmiko.ruckus import RuckusFastironSSH
 from netmiko.ruckus import RuckusFastironTelnet
+from netmiko.ruckus import RuckusSmartzoneSSH
 from netmiko.ruijie import RuijieOSSSH, RuijieOSTelnet
 from netmiko.sixwind import SixwindOSSSH
 from netmiko.sophos import SophosSfosSSH
@@ -218,6 +219,7 @@ CLASS_MAPPER_BASE = {
     "rad_etx": RadETXSSH,
     "raisecom_roap": RaisecomRoapSSH,
     "ruckus_fastiron": RuckusFastironSSH,
+    "ruckus_smartzone": RuckusSmartzoneSSH,
     "ruijie_os": RuijieOSSSH,
     "sixwind_os": SixwindOSSSH,
     "sophos_sfos": SophosSfosSSH,

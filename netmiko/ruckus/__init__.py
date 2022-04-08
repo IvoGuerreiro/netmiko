@@ -1,5 +1,5 @@
 from netmiko.ruckus.ruckus_fastiron import RuckusFastironSSH
 from netmiko.ruckus.ruckus_fastiron import RuckusFastironTelnet
-from netmiko.ruckus.ruckus_smartzone import RuckusSmartzone
+from netmiko.ruckus.ruckus_smartzone import RuckusSmartzoneSSH
 
-__all__ = ["RuckusFastironSSH", "RuckusFastironTelnet", "RuckusSmartzone"]
+__all__ = ["RuckusFastironSSH", "RuckusFastironTelnet", "RuckusSmartzoneSSH"]
